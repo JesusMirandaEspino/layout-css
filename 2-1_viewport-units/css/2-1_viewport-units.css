@@ -4,15 +4,16 @@
   display: flex;
 }
 
+/*Unidad vh view port*/
 .cabecera__bloque1 {
-  height: 500px;
+  height: 100vh;
   width: 50%;
   background: url(../images/poloSur.jpg) no-repeat 40% top;
   background-size: cover;
 }
 
 .cabecera__bloque2 {
-  height: 500px;
+  height: 100vh;
   width: 50%;
   display: flex;
   align-items: center;
@@ -21,8 +22,9 @@
   text-align: center;
 }
 
+/*vw es recomendable solo usarlos en titulos*/
 h1 {
-  font-size: 50px;
+  font-size: 5vw;
 }
 
 .articulo {
